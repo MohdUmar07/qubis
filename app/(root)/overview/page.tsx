@@ -190,20 +190,36 @@ const LandingPage = () => {
       <section id="team" className="py-24 bg-gray-800/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">Our Team</h2>
-          <div className="grid md:grid-cols-3 gap-12">
+          <div className="flex flex-wrap justify-center gap-12">
             {[
               {
+                name: "Aban",
+                image: "/member1.png",
+                role: "Core Backend Architect",
+                socials: [
+                  { platform: "GitHub", url: "#", icon: FaGithub }
+                ]
+              },
+              {
+                name: "Shailendr",
+                image: "/member2.png",
+                role: "Lead UI/UX Designer",
+                socials: [
+                  { platform: "LinkedIn", url: "#", icon: FaLinkedin }
+                ]
+              },
+              {
                 name: "Mohammad Qasim",
-                image: "/qasim.jpeg",
-                role: "UI/UX Designer",
+                image: "/member3.png",
+                role: "Frontend Developer",
                 socials: [
                   { platform: "Instagram", url: "https://www.instagram.com/qasim___khan__/", icon: FaInstagram }
                 ]
               },
               {
                 name: "Mohammad Baqir Khan",
-                image: "/baqir.png",
-                role: "Backend Developer",
+                image: "/member4.png",
+                role: "Integration Engineer",
                 socials: [
                   { platform: "Instagram", url: "https://www.instagram.com/_baqir_110", icon: FaInstagram },
                   { platform: "GitHub", url: "https://github.com/mbaqirk", icon: FaGithub },
@@ -213,14 +229,14 @@ const LandingPage = () => {
               },
               {
                 name: "Mohammad Saheem",
-                image: "/saheem.jpeg",
-                role: "Testing Engineer",
+                image: "/member5.png",
+                role: "Testing & QA Engineer",
                 socials: [
                   { platform: "Instagram", url: "https://www.instagram.com/saheem.4u_", icon: FaInstagram }
                 ]
               }
             ].map((member) => (
-              <div key={member.name} className="text-center">
+              <div key={member.name} className="text-center w-full sm:w-64">
                 <Image
                   src={member.image}
                   alt={member.name}
