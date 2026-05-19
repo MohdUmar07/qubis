@@ -193,31 +193,31 @@ const LandingPage = () => {
             {[
               {
                 name: "Aban Asghar",
-                image: "/Aban Asghar.jpeg",
+                image: "/aban-asghar.jpeg",
                 role: "Core Backend Architect",
                 socials: []
               },
               {
                 name: "Shailendra Singh",
-                image: "/Shailendra Singh.jpeg",
+                image: "/shailendra-singh.jpeg",
                 role: "Lead UI/UX Designer",
                 socials: []
               },
               {
                 name: "Shahnawaz Khan",
-                image: "/Shahnawaz Khan.jpeg",
+                image: "/shahnawaz-khan.jpeg",
                 role: "Frontend Developer",
                 socials: []
               },
               {
                 name: "Shahnwaaz Ali",
-                image: "/Shahnwaaz Ali.jpeg",
+                image: "/shahnwaaz-ali.jpeg",
                 role: "Integration Engineer",
                 socials: []
               },
               {
                 name: "Shoaib Akhtar",
-                image: "/Shoaib Akhtar.jpeg",
+                image: "/shoaib-akhtar.jpeg",
                 role: "Testing & QA Engineer",
                 socials: []
               }
