@@ -154,8 +154,7 @@ const LandingPage = () => {
              <div className="max-w-3xl mx-auto">
                <p className="text-lg text-gray-300 leading-relaxed">
                The name Qubis represents more than just a chat platform &#8211; it&apos;s a fusion of our team&apos;s identity. 
-               Derived from the initials of our founding members (Qasim, Baqir, Saheem) and inspired by the 
-               concept of a cube, Qubis symbolizes the strength and unity of our collaborative vision.
+               Inspired by the concept of a cube, Qubis symbolizes the strength, unity, and multi-dimensional expertise of our collaborative vision.
                </p>
              </div>
            </div>
@@ -193,47 +192,34 @@ const LandingPage = () => {
           <div className="flex flex-wrap justify-center gap-12">
             {[
               {
-                name: "Aban",
-                image: "/member1.png",
+                name: "Aban Asghar",
+                image: "/Aban Asghar.jpeg",
                 role: "Core Backend Architect",
-                socials: [
-                  { platform: "GitHub", url: "#", icon: FaGithub }
-                ]
+                socials: []
               },
               {
-                name: "Shailendr",
-                image: "/member2.png",
+                name: "Shailendra Singh",
+                image: "/Shailendra Singh.jpeg",
                 role: "Lead UI/UX Designer",
-                socials: [
-                  { platform: "LinkedIn", url: "#", icon: FaLinkedin }
-                ]
+                socials: []
               },
               {
-                name: "Mohammad Qasim",
-                image: "/member3.png",
+                name: "Shahnawaz Khan",
+                image: "/Shahnawaz Khan.jpeg",
                 role: "Frontend Developer",
-                socials: [
-                  { platform: "Instagram", url: "https://www.instagram.com/qasim___khan__/", icon: FaInstagram }
-                ]
+                socials: []
               },
               {
-                name: "Mohammad Baqir Khan",
-                image: "/member4.png",
+                name: "Shahnwaaz Ali",
+                image: "/Shahnwaaz Ali.jpeg",
                 role: "Integration Engineer",
-                socials: [
-                  { platform: "Instagram", url: "https://www.instagram.com/_baqir_110", icon: FaInstagram },
-                  { platform: "GitHub", url: "https://github.com/mbaqirk", icon: FaGithub },
-                  { platform: "LinkedIn", url: "https://in.linkedin.com/in/mbaqirk", icon: FaLinkedin },
-                  { platform: "Portfolio", url: "https://mbaqirk.netlify.app", icon: FaGlobe }
-                ]
+                socials: []
               },
               {
-                name: "Mohammad Saheem",
-                image: "/member5.png",
+                name: "Shoaib Akhtar",
+                image: "/Shoaib Akhtar.jpeg",
                 role: "Testing & QA Engineer",
-                socials: [
-                  { platform: "Instagram", url: "https://www.instagram.com/saheem.4u_", icon: FaInstagram }
-                ]
+                socials: []
               }
             ].map((member) => (
               <div key={member.name} className="text-center w-full sm:w-64">
